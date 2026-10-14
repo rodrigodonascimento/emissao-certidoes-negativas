@@ -17,5 +17,10 @@ O projeto foi desenvolvido como um site estático leve, garantindo carregamento 
 * **JavaScript:** Pequenas interações e melhorias para o usuário.
 
 ## 🌐 Como Acessar a Central Online
-O site está hospedado e disponível publicamente através do GitHub Pages. Você pode acessá-lo clicando no link abaixo:
+O site está hospedado e disponível publicamente através do GitHub Pages. 
+
+> [!IMPORTANT]
+> **💡 DICA DE NAVEGAÇÃO:** 
+> Para não perder esta página de vista, **segure a tecla `Ctrl` no teclado e clique no link abaixo** (ou clique com o botão rodinha do mouse). Isso forçará o GitHub a abrir o site em uma nova aba!
+
 👉 <a href="https://rodrigodonascimento.github.io/emissao-certidoes-negativas/" target="_blank">CLIQUE AQUI PARA ACESSAR O SITE</a>

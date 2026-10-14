@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Boot CSS */
+html, body {
+	height: 100%;
+	font-family: 'Ubuntu';
+}
+
+.center {
+	max-width: 1280px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+
+.w14 {
+	width: 14%;
+	display: inline-block;
+	padding: 10px;
+} 
+
+.w76 {
+	width: 76%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+@font-face{
+	font-family: 'Ubuntu';
+	src: url('../fontes/Ubuntu-Bold.ttf');
+	src: url('../fontes/Ubuntu-Italic.ttf');
+	src: url('../fontes/Ubuntu-Medium.ttf');
+	src: url('../fontes/Ubuntu-Regular.ttf');
+}
+
+/* Estilização da página */
+body {
+	background: #D3F5F4;
+	background-image: url('../imagens/asfalt-dark.png');
+}
+header {
+	width: 100%;
+	background: #2E4773;
+	/* margin-bottom: 14%; */
+	padding: 10px 0;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 35px;
+	color: #D3F5F4;
+}
+
+main {
+	min-height: calc(100vh - 263px);
+}
+
+a {
+	text-decoration: none;
+}
+
+.link_certidoes {
+	margin-top: 110px;
+}
+
+.receita_federal {
+	width: 100%;
+	height: 60px;
+	background:#2C3A9B;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.justica_federal {
+	width: 100%;
+	height: 60px;
+	background:#3C576C;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.tjmg {
+	width: 100%;
+	height: 60px;
+	background:#7E1819;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.tst {
+	width: 100%;
+	height: 60px;
+	background:#2F6184;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.trt_mg {
+	width: 100%;
+	height: 60px;
+	background: #81A2B6;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.receita_estadual_mg {
+	width: 100%;
+	height: 60px;
+	background: #8B8B8B;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.regularidade_fgts {
+	width: 100%;
+	height: 60px;
+	background: #1F2A47;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.trf6-eprog {
+	width: 100%;
+	height: 60px;
+	background-color: #ff7300;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.texto {
+	color: #D3F5F4;
+	padding-top: 20px;
+}
+
+.footer {
+	background: #2E4773;
+	padding: 20px 0;
+	cursor: pointer;
+}
+
+.legenda {
+	display: none;
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #D3F5F4;
+	width: 33%;
+	box-shadow: 5px 5px 2px #888888;
+	text-align: center;
+	padding: 3px;
+}
+
+.box-mensagem {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 30px;
+	background: #FFD600;
+	background-image: url('../imagens/asfalt-dark.png');
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.box-mensagem i {
+	position: relative;
+	top: -20px;
+	left: 15px;
+	float: right;
+	cursor: pointer;
+}
+
+.mensagem {
+	font-size: 30px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-family: 'Laila-Light';
+}
+
+#criacao {
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+	header {
+		width: 100%;
+		background: #2E4773;
+		margin-bottom: 0.5%;
+		padding: 10px 0;
+	}
+
+	.link_certidoes {
+		margin-top: 0;
+	}
+
+	.w14 {
+		width: 100%;
+		display: block;
+		padding: 2px;
+	}
+}

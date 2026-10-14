@@ -1,4 +1,4 @@
-# 🏢 Central de Certidões Negativas para o Setor Imobiliário
+# 🏢 Central de Certidões Negativas para o Setor Imobiliário de Minas Gerais
 
 Este é um site estático projetado para ajudar despachantes imobiliários, corretores, proprietários, compradores e inquilinos envolvidos em negócios de imóveis. A página funciona como uma central de links rápidos, reunindo botões que direcionam o usuário de forma direta e segura para os portais oficiais de emissão das **Certidões Negativas** necessárias na compra, venda ou locação de um imóvel.
 
